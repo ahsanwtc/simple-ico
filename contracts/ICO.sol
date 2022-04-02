@@ -47,6 +47,7 @@ contract ICO {
     uint quantity = price * msg.value;
     require(quantity <= availableTokens, "not enough tokens left");
     sales.push(Sale(msg.sender, quantity));
+    availableTokens -= quantity;
   }
 
   function release() external onlyAdmin icoEnded tokenNotReleased {
