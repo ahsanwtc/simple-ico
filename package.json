@@ -1,0 +1,23 @@
+{
+  "name": "simple-ico",
+  "version": "1.0.0",
+  "description": "A simple project to implement a simple ico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsanwtc/simple-ico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahsanwtc/simple-ico/issues"
+  },
+  "homepage": "https://github.com/ahsanwtc/simple-ico#readme",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15"
+  }
+}
